@@ -1,7 +1,7 @@
 package com.example.serenitybdd.steps;
 
 import com.example.serenitybdd.pages.ChatPage;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 public class ChatSteps {
 

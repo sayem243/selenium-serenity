@@ -1,7 +1,7 @@
 package com.example.serenitybdd.steps;
 
 import com.example.serenitybdd.pages.ChatPage;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 public class ChatSteps {
 
@@ -13,8 +13,8 @@ public class ChatSteps {
     }
 
     @Step("Click chat icon using XPath: {0}")
-    public void clickChatIcon(String iconXpath) {
-        chatPage.waitForIconAndClick(iconXpath);
+    public boolean clickChatIcon(String iconXpath) {
+        return chatPage.waitForIconAndClick(iconXpath);
     }
 
     @Step("Validate that chat panel is opened")

@@ -3,7 +3,7 @@ package com.example.serenitybdd.stepdefinitions;
 import com.example.serenitybdd.steps.ChatSteps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.And;
-import net.thucydides.core.annotations.Steps;
+import net.serenitybdd.annotations.Steps;
 import org.junit.Assert;
 
 public class ChatStepDefinitions {
